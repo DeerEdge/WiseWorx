@@ -17,8 +17,8 @@ class ui_main_window(object):
         self.central_widget.setObjectName("display")
 
         self.tab_widget = QtWidgets.QTabWidget(self.central_widget)
-        self.tab_widget.resize(800, 800)
-        self.tab_widget.move(300, 0)
+        self.tab_widget.resize(840, 800)
+        self.tab_widget.move(260, 0)
 
         self.dash_tab = QtWidgets.QWidget()
         self.dash_tab.setObjectName("tab1")
